@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Poppins&display=swap');
+*{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(156,9,108,0.8828781512605042) 63%, rgba(0,212,255,1) 100%);
+}
+.container{
+    width: 400px;
+    height: 350px;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 170px ;
+    padding-left: 50px;
+    padding-top: 30px;
+
+
+}
+.container img{
+    width: 140px;
+}
+.container h2{
+    font-size: 25px;
+}
+.container input{
+    width: 330px;
+    height: 31px;
+    border: none;
+    border-bottom: 1px solid black ;
+}
+.container button{
+    width: 79px;
+    height: 36px;
+    background-color: rgb(30, 156, 206);
+    border: none;
+    color: white;
+
+}
+#next-btn{
+    background-color:rgba(0,212,255,1) ;
+    color: black;
+}
+container a{
+    text-decoration: none;
+}
+.container a:hover{
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+
+ #btn-span{
+    margin-left: 180px;
+    padding-top: 20px;
+ }
+
+ #next-btn:hover{
+    background-color: rgb(109, 109, 109);
+    /* fodo class */
+ }
